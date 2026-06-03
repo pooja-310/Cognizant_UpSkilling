@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DevTools Debugging</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f5f7fb;
+        }
+
+        .box {
+            width: 40%;
+            margin: 80px auto;
+            padding: 25px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #d6e4ff;
+        }
+
+        .title {
+            color: #2c4a7a;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #2c4a7a;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        #output {
+            margin-top: 15px;
+            font-weight: bold;
+            color: green;
+        }
+    </style>
+    <script>
+        function calculateEventFee() {
+            let event = "music";   
+            let fee = 0;
+            console.log("Selected event:", event); 
+            if (event === "music") {
+                fee = 500;
+            } else if (event === "food") {
+                fee = 300;
+            } else {
+                fee = 200;
+            }
+            console.log("Calculated fee:", fee); 
+            document.getElementById("output").innerText =
+                "Event Fee: ₹" + fee;
+            debugger; 
+        }
+    </script>
+</head>
+<body>
+    <div class="box">
+        <h2 class="title">DevTools Debugging Practice</h2>
+        <button onclick="calculateEventFee()">Calculate Fee</button>
+        <p id="output"></p>
+    </div>
+</body>
+</html>
