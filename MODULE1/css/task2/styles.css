@@ -1,0 +1,44 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 20px;
+}
+
+/* Sub heading style */
+h2 {
+    text-align: center;
+    color: #34495e;
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.cta-button {
+    display: block;
+    margin: 20px auto;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Hover effect */
+.cta-button:hover {
+    background-color: #0056b3;
+}

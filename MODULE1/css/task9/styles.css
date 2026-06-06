@@ -1,0 +1,59 @@
+/* Page Base */
+body {
+    font-family: Georgia, serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Newspaper Header (BIG IMPACT) */
+.header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.header h1 {
+    font-size: 52px;
+    letter-spacing: 5px;
+    margin: 0;
+    color: #111;
+}
+
+.header p {
+    font-size: 16px;
+    color: #666;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+/* News Box */
+.newsArticle {
+    width: 90%;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+
+    column-count: 2;
+    column-gap: 40px;
+    column-rule: 2px solid #bbb;
+}
+
+/* BIG NEWS HEADLINE */
+.newsArticle h2 {
+    column-span: all;
+    font-size: 28px;
+    color: #b30000;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+/* Paragraph */
+.newsArticle p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color: #333;
+}

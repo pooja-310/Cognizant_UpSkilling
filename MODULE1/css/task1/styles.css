@@ -1,0 +1,17 @@
+
+
+h2 {
+    text-align: center;
+    color: #2c4a7a;
+    font-size: 22px;
+}
+
+
+p {
+    text-align: center;
+    color: #555;
+    font-size: 16px;
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.6;
+}
